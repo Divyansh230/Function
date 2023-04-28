@@ -1,0 +1,12 @@
+#include <stdio.h>
+int input(char *s){
+    printf("%s",s);
+    int x;
+    scanf("%d",&x);
+    return x;
+}
+
+int main(){
+    int z=input("eNTER A NUMBER ");
+    printf("%d",z);
+}
